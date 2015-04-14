@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testTransientStackValue" : "dkh 04/14/2015 13:19" } }
+		"testTransientStackValue1" : "dkh 04/14/2015 13:33",
+		"testTransientStackValue2" : "dkh 04/14/2015 13:51",
+		"vmMarkSweep" : "dkh 04/14/2015 13:50" } }
