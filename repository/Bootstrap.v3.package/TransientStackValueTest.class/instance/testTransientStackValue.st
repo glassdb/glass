@@ -5,7 +5,7 @@ testTransientStackValue
   "https://github.com/GsDevKit/zinc/issues/74"
 
   | gc |
-  (SessionTemps current at: #'TransientStackValue' otherwise: nil) isEmpty
+  (SessionTemps current at: #'TransientStackValue' otherwise: #()) isEmpty
     ifFalse: [ 
       Transcript
         cr;
