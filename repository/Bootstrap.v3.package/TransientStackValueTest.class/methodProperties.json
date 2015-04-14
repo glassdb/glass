@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testTransientStackValue1" : "dkh 04/14/2015 13:33",
-		"testTransientStackValue2" : "dkh 04/14/2015 13:51",
+		"testTransientStackValueDirectPersistence" : "dkh 04/14/2015 14:04",
+		"testTransientStackValueIndirectPersistenceNoStubbing" : "dkh 04/14/2015 14:05",
+		"testTransientStackValueIndirectPersistenceStubbing" : "dkh 04/14/2015 14:05",
 		"vmMarkSweep" : "dkh 04/14/2015 13:50" } }

@@ -1,11 +1,12 @@
 tests
-testTransientStackValue2
+testTransientStackValueIndirectPersistenceStubbing
   "https://github.com/GsDevKit/GsDevKit/issues/65"
 
   "https://github.com/GsDevKit/zinc/issues/74"
 
-  true
-    ifTrue: [ ^ self ].
+  Transcript
+    cr;
+    show: 'testTransientStackValueIndirectPersistenceStubbing'.
   (SessionTemps current at: #'TransientStackValue' otherwise: #()) isEmpty
     ifFalse: [ 
       Transcript
@@ -15,6 +16,11 @@ testTransientStackValue2
       ^ self ].
   [ 
   | y |
+  "Indirect reference to TransientStackValue via temp var to Association.
+   Persist the Association.
+   Do not use _setNoStubbing.
+
+   Without no stubbing first marksweep clears to the soft reference"
   y := 1 -> nil.
   y
     value:
@@ -23,6 +29,9 @@ testTransientStackValue2
           {3.
           2.
           1}).
+  self
+    deny:
+      (SessionTemps current at: #'TransientStackValue' otherwise: nil) isEmpty.
   Smalltalk at: #'TSV' put: y.
   System commitTransaction.
   (Delay forSeconds: 10) wait.
@@ -55,12 +64,7 @@ testTransientStackValue2
       Transcript show: '+' ] ]
     fork.
   (Delay forSeconds: 1) wait.
-  self vmMarkSweep.
-  self
-    deny:
-      (SessionTemps current at: #'TransientStackValue' otherwise: nil) isEmpty.
-  (Delay forSeconds: 15) wait.
-  self vmMarkSweep.
+  self vmMarkSweep.	"First - without no stubbing, soft reference cleared."
   self
     assert:
       (SessionTemps current at: #'TransientStackValue' otherwise: nil) isEmpty

@@ -1,0 +1,68 @@
+tests
+testTransientStackValueDirectPersistence
+  "https://github.com/GsDevKit/GsDevKit/issues/65"
+
+  "https://github.com/GsDevKit/zinc/issues/74"
+
+  Transcript
+    cr;
+    show: 'testTransientStackValueDirectPersistence'.
+  (SessionTemps current at: #'TransientStackValue' otherwise: #()) isEmpty
+    ifFalse: [ 
+      Transcript
+        cr;
+        show:
+            'Skipping: testTransientStackValueDirectPersistence because TransientStackValue softrefs are not empty'.
+      ^ self ].
+  [ 
+  | y |
+  "Direct reference to TransientStackValue via temp var.
+   Persist the TransientStackValue itself.
+
+   Second marksweep (after process terminates) clears the soft reference"
+  y := TransientStackValue
+    value:
+      {3.
+      2.
+      1}.
+  Smalltalk at: #'TSV' put: y.
+  System commitTransaction.
+  (Delay forSeconds: 10) wait.
+  Transcript
+    cr;
+    show: 'bye bye' ]
+    fork.
+  [ 
+  [ true ]
+    whileTrue: [ 
+      (Delay forSeconds: 1) wait.
+      Transcript show: '=' ] ]
+    fork.
+  [ 
+  [ true ]
+    whileTrue: [ 
+      (Delay forSeconds: 1) wait.
+      Transcript show: '_' ] ]
+    fork.
+  [ 
+  [ true ]
+    whileTrue: [ 
+      (Delay forSeconds: 1) wait.
+      Transcript show: '-' ] ]
+    fork.
+  [ 
+  [ true ]
+    whileTrue: [ 
+      (Delay forSeconds: 1) wait.
+      Transcript show: '+' ] ]
+    fork.
+  (Delay forSeconds: 1) wait.
+  self vmMarkSweep.	"First - temp var keeps soft ref alive"
+  self
+    deny:
+      (SessionTemps current at: #'TransientStackValue' otherwise: nil) isEmpty.
+  (Delay forSeconds: 15) wait.
+  self vmMarkSweep.	"Second - process no longer active."
+  self
+    assert:
+      (SessionTemps current at: #'TransientStackValue' otherwise: nil) isEmpty
