@@ -65,6 +65,12 @@ testTransientStackValueIndirectPersistenceStubbing
     fork.
   (Delay forSeconds: 1) wait.
   self vmMarkSweep.	"First - without no stubbing, soft reference cleared."
+  Transcript
+    cr;
+    show:
+        '[1] '
+            ,
+              (SessionTemps current at: #'TransientStackValue' otherwise: nil) printString.
   self
     assert:
       (SessionTemps current at: #'TransientStackValue' otherwise: nil) isEmpty

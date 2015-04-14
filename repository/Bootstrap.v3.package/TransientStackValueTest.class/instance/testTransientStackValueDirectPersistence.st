@@ -58,11 +58,23 @@ testTransientStackValueDirectPersistence
     fork.
   (Delay forSeconds: 1) wait.
   self vmMarkSweep.	"First - temp var keeps soft ref alive"
+  Transcript
+    cr;
+    show:
+        '[1] '
+            ,
+              (SessionTemps current at: #'TransientStackValue' otherwise: nil) printString.
   self
     deny:
       (SessionTemps current at: #'TransientStackValue' otherwise: nil) isEmpty.
   (Delay forSeconds: 15) wait.
   self vmMarkSweep.	"Second - process no longer active."
+  Transcript
+    cr;
+    show:
+        '[2] '
+            ,
+              (SessionTemps current at: #'TransientStackValue' otherwise: nil) printString.
   self
     assert:
       (SessionTemps current at: #'TransientStackValue' otherwise: nil) isEmpty
