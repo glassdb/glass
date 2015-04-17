@@ -1,4 +1,4 @@
 image startup
 sessionStart
-  false
+  true
     ifTrue: [ ProcessorScheduler scheduler setNoStubs ]

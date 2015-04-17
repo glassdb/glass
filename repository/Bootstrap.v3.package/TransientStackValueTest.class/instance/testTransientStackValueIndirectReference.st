@@ -7,7 +7,8 @@ testTransientStackValueIndirectReference
     show: 'testTransientStackValueIndirectReference<'.
   [ 
   | x y |
-  "No direct reference to TransientStackValue via temp var ... should always fail "
+  "No direct reference to TransientStackValue from stack ... should always fail
+   Proof that we can force stubbing. "
   y := TransientStackValue
     value:
       {3.

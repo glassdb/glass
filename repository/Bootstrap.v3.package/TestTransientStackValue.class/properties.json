@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestTransientStackValue",
+	"pools" : [
+		 ],
+	"super" : "TransientStackValue",
+	"type" : "normal" }
