@@ -1,5 +1,5 @@
 *squeak-printing
 asCommaString
-	"Return collection printed as 'a, b, c' "
+  "Return collection printed as 'a, b, c' "
 
-	^String streamContents: [:s | self asStringOn: s delimiter: ', ']
+  ^ String streamContents: [ :s | self asStringOn: s delimiter: ', ' ]

@@ -11,8 +11,9 @@
 		"indexOfAnyOf:startingAt:ifAbsent:" : "dkh 08/29/2013 21:17",
 		"isOctetString" : "dkh 07/01/2009 10:21",
 		"isString" : "dkh 07/01/2009 13:12",
-		"match:" : "dkh 07/02/2009 04:06",
+		"match:" : "PaulDeBruicker 02/10/2017 15:13",
 		"skipDelimiters:startingAt:" : "dkh 07/01/2009 09:56",
-		"squeakMatch:" : "dkh 07/02/2009 04:06",
+		"squeakMatch:" : "PaulDeBruicker 02/10/2017 15:13",
 		"squeakStoreOn:" : "dkh 07/01/2009 11:29",
+		"startingAt:match:startingAt:" : "PaulDeBruicker 02/10/2017 14:14",
 		"withGemstoneLineEndings" : "DataCurator 12/13/2010 19:35" } }

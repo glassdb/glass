@@ -1,41 +1,63 @@
 *squeak
-readFrom: aStream 
-	"Read a Date from the stream in any of the forms:  
-	
-		<day> <monthName> <year>		(5 April 1982; 5-APR-82)  
-	
-		<monthName> <day> <year>		(April 5, 1982)  
-	
-		<monthNumber> <day> <year>		(4/5/82) 
-			<day><monthName><year>			(5APR82)"
-	| day month year |
-	aStream peek isDigit
-		ifTrue: [day := Integer readFrom: aStream].
-	[aStream peek isAlphaNumeric]
-		whileFalse: [aStream skip: 1].
-	aStream peek isLetter
-		ifTrue: ["number/name... or name..."
-			month := WriteStream
-						on: (String new: 10).
-			[aStream peek isLetter]
-				whileTrue: [month nextPut: aStream next].
-			month := month contents.
-			day isNil
-				ifTrue: ["name/number..."
-					[aStream peek isAlphaNumeric]
-						whileFalse: [aStream skip: 1].
-					day := Integer readFrom: aStream]]
-		ifFalse: ["number/number..."
-			month := Month nameOfMonth: day.
-			day := Integer readFrom: aStream].
-	month := self _getMonthFrom: month.
-	[aStream peek isAlphaNumeric]
-		whileFalse: [aStream skip: 1].
-	year := Integer readFrom: aStream.
-	year < 10 ifTrue: [year := 2000 + year] 
-		ifFalse: [ year < 1900 ifTrue: [ year := 1900 + year]].
+readFrom: aStream
+  "Read a Date from the stream in any of the forms:  
+		<day> <month> <year>		(15 April 1982; 15-APR-82; 15.4.82; 15APR82)  
+		<month> <day> <year>		(April 15, 1982; 4/15/82)
+		<year>-<month>-<day>			(1982-04-15) (ISO8601)"
 
-	^ self
-		year: year
-		month: month
-		day: day
+  | day month year parsedNumber prefix |
+  aStream peek = $-
+    ifTrue: [ prefix := -1 ]
+    ifFalse: [ prefix := 1 ].
+  [ aStream peek isAlphaNumeric ] whileFalse: [ aStream skip: 1 ].
+  aStream peek isDigit
+    ifTrue: [ 
+      parsedNumber := (Integer readFrom: aStream) * prefix.
+      (parsedNumber < 0 or: [ parsedNumber > 31 ])
+        ifTrue: [ year := parsedNumber ] ].
+  [ aStream peek isAlphaNumeric ] whileFalse: [ aStream skip: 1 ].
+  aStream peek isLetter
+    ifTrue: [ 
+      "MM-DD-YY or DD-MM-YY or YY-MM-DD"
+      month := (String new: 10) writeStream.
+      [ aStream peek isLetter ] whileTrue: [ month nextPut: aStream next ].
+      month := month contents.
+      [ aStream peek isAlphaNumeric ] whileFalse: [ aStream skip: 1 ].
+      parsedNumber
+        ifNil: [ 
+          "MM DD YY"
+          day := Integer readFrom: aStream ]
+        ifNotNil: [ 
+          year
+            ifNil: [ 
+              "DD MM YY"
+              day := parsedNumber ] ] ]
+    ifFalse: [ 
+      "MM-DD-YY or DD-MM-YY or YY-MM-DD"
+      year
+        ifNil: [ 
+          "MM-DD-YY or DD-MM-YY"
+          parsedNumber > 12
+            ifTrue: [ 
+              "DD-MM-YY"
+              Error
+                signal: 'Month out of bounds: ' , parsedNumber asString , '.'.
+              day := parsedNumber.
+              month := Integer readFrom: aStream ]
+            ifFalse: [ 
+              "MM-DD-YY"
+              month := parsedNumber.
+              day := Integer readFrom: aStream ] ]
+        ifNotNil: [ 
+          "YY-MM-DD"
+          month := Integer readFrom: aStream ] ].
+  [ aStream peek isAlphaNumeric ] whileFalse: [ aStream skip: 1 ].
+  year
+    ifNil: [ year := Integer readFrom: aStream ]
+    ifNotNil: [ day := Integer readFrom: aStream ].
+  (year < 100 and: [ year >= 0 ])
+    ifTrue: [ 
+      year < 69
+        ifTrue: [ year := 2000 + year ]
+        ifFalse: [ year := 1900 + year ] ].
+  ^ self year: year month: month day: day

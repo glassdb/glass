@@ -1,4 +1,3 @@
 *core-squeak
 match: aString
-
-	^self squeakMatch: aString
+  ^ self squeakMatch: aString
