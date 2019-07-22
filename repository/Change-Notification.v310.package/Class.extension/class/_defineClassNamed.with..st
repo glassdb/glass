@@ -64,7 +64,7 @@ _defineClassNamed: aClassName with: aBlock
               def := ar at: 2.
               errorStream
                 tab;
-                nextPutAll: def description , ': ';
+                nextPutAll: def summary , ': ';
                 cr;
                 nextPutAll: details;
                 cr ].
