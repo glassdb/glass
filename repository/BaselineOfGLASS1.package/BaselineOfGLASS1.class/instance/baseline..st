@@ -25,7 +25,7 @@ baseline: spec
           with: [ 
               spec
                 loads: #('Core');
-                repository: 'github://GsDevKit/Grease:master/repository' ];
+                repository: 'github://SeasideSt/Grease:master/repository' ];
         project: 'Grease-Tests'
           copyFrom: 'Grease'
           with: [ spec loads: #('Tests') ];
