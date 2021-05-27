@@ -309,7 +309,8 @@ baseline: spec
 				package: 'Network-Url' with: [ spec includes: 'Network-Url35x' ];
 				yourself ].
 	spec
-		for: #(#'gs3.5.4.x' #'gs3.5.5.x' #'gs3.5.6.x')
+		for:
+			#(#'gs3.5.4.x' #'gs3.5.5.x' #'gs3.5.6.x' #'gs3.5.7.x' #'gs3.5.8.x' #'gs3.5.9.x')
 		do: [ 
 			spec
 				package: 'Bootstrap' with: [ spec file: 'Bootstrap.v354' ];
