@@ -1,4 +1,4 @@
-# GLASS [![Build Status](https://travis-ci.org/glassdb/glass.png?branch=master)](https://travis-ci.org/glassdb/glass)
+# GLASS [![Build Status](https://github.com/glassdb/glass/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/glassdb/glass/actions/workflows/ci.yml)
 
 ## Installation
 
