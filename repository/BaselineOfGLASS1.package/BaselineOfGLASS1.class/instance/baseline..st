@@ -348,7 +348,7 @@ baseline: spec
 					with: [ 
 							spec
 								requires: 'Network-Url';
-								file: 'Squeak.v36' ];
+								file: 'Squeak.v37' ];
 				yourself ].
 	spec
 		for: #'maglev'
