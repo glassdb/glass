@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"integerDictionary" : "dkh 03/23/2011 15:31" },
+	"instance" : {
+		"associationAt:otherwise:" : "DataCurator 12/19/2007 11:57",
+		"associationAtOrNil:hash:" : "DataCurator 12/19/2007 11:57",
+		"copy" : "DataCurator 12/19/2007 11:57",
+		"equalBlock" : "DataCurator 12/19/2007 11:57",
+		"equalBlock:" : "DataCurator 12/19/2007 11:57",
+		"hashBlock" : "DataCurator 12/19/2007 11:57",
+		"hashBlock:" : "DataCurator 12/19/2007 11:57",
+		"hashFunction:" : "DataCurator 12/19/2007 11:57",
+		"keys" : "DataCurator 12/19/2007 11:57",
+		"postCopyBlocks" : "DataCurator 12/19/2007 11:57",
+		"removeKey:otherwise:" : "DataCurator 12/19/2007 11:57" } }

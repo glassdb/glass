@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"readFrom:ifFail:" : "dkh 10/06/2015 19:50",
+		"readFrom:radix:" : "laza 10/16/2004 14:34",
+		"readFromString:" : "" },
+	"instance" : {
+		"asByteArray" : "dkh 10/04/2011 19:36",
+		"asHexDigit" : "",
+		"asStringWithCommas" : "dkh 06/27/2008 15:40",
+		"asTwoCharacterString" : "dkh 07/11/2007 10:35",
+		"atRandom" : "dkh 05/30/2008 09:42",
+		"atRandom:" : "dkh 05/30/2008 09:43",
+		"bitClear:" : "OttoBehrens 02/22/2011 22:35",
+		"hashMultiply" : "dkh 02/12/2009 16:48",
+		"isInteger" : "",
+		"isLarge" : "DaleHenrichs 10/25/2010 16:01",
+		"printPaddedWith:to:" : "jgf 02/03/2009 10:29",
+		"printPaddedWith:to:base:" : "",
+		"printStringBase:" : "dkh 07/05/2007 17:23",
+		"printStringRadix:showRadix:" : "dkh 02/16/2013 07:27",
+		"to:" : "dkh 07/03/2007 09:19",
+		"withAtLeastNDigits:" : "dkh 11/17/2008 15:56" } }

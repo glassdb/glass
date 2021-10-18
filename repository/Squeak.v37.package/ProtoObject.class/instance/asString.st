@@ -1,0 +1,3 @@
+*squeak
+asString
+  ^ 'aProtoObject'

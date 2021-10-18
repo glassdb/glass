@@ -1,0 +1,4 @@
+*squeak
+squeakPrintString
+
+	^self printString

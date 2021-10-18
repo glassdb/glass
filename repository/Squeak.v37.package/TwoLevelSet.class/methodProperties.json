@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"new" : "DataCurator 12/19/2007 11:57" },
+	"instance" : {
+		"add:" : "DataCurator 12/19/2007 11:57",
+		"copy" : "DataCurator 12/19/2007 11:57",
+		"detect:" : "DataCurator 12/19/2007 11:57",
+		"do:" : "DataCurator 12/19/2007 11:57",
+		"includes:" : "DataCurator 12/19/2007 11:57",
+		"initialize" : "DataCurator 12/19/2007 11:57",
+		"isEmpty" : "DataCurator 12/19/2007 11:57",
+		"remove:" : "DataCurator 12/19/2007 11:57",
+		"removeAllXAndY:" : "DataCurator 12/19/2007 11:57" } }

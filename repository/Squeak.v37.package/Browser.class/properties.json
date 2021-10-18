@@ -1,0 +1,22 @@
+{
+	"category" : "Squeak-Tools-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"RecentClasses" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"systemOrganizer",
+		"classOrganizer",
+		"metaClassOrganizer",
+		"systemCategoryListIndex",
+		"classListIndex",
+		"messageCategoryListIndex",
+		"messageListIndex",
+		"editSelection",
+		"metaClassIndicated" ],
+	"name" : "Browser",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+*squeak
+asDateAndTime
+	^ self

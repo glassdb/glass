@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"on:" : "nice 5/1/2006 00:45",
+		"parse:" : "nice 5/1/2006 02:02",
+		"parse:onError:" : "nice 5/1/2006 02:02",
+		"squeezeNumberOutOfString:" : "NikoSchwarz 10/23/2009 13:21",
+		"squeezeNumberOutOfString:onError:" : "NikoSchwarz 10/23/2009 13:22" },
+	"instance" : {
+		"allowPlusSign" : "nice 2/13/2010 00:00",
+		"exponentLetters" : "nice 4/27/2006 22:57",
+		"makeIntegerOrScaledInteger" : "nice 10/7/2009 01:30",
+		"makeScaledDecimalWithNumberOfNonZeroFractionDigits:andNumberOfTrailingZeroInFractionPart:" : "nice 10/7/2009 01:40",
+		"nextNumber" : "dkh 02/16/2013 08:40",
+		"nextNumberBase:" : "dkh 03/25/2011 11:48",
+		"nextScaledDecimal" : "dkh 03/25/2011 11:48",
+		"readNamedFloatOrFail" : "dkh 09/29/2011 10:34",
+		"readNumberWithFractionPartNumberOfTrailingZeroInIntegerPart:" : "nice 7/26/2009 00:45",
+		"readScale" : "nice 10/16/2008 02:17" } }

@@ -1,0 +1,4 @@
+*squeak
+weekday
+
+	^self weekDayName

@@ -1,0 +1,4 @@
+*squeak
+contents
+
+	^self

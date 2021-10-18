@@ -1,0 +1,4 @@
+*squeak
+julianDayNumber
+
+	^self julianDay

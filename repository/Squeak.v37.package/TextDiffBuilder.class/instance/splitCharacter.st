@@ -1,0 +1,3 @@
+private
+splitCharacter
+	^Character cr

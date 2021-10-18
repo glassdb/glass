@@ -1,0 +1,4 @@
+*squeak
+monthIndex
+
+	^self month

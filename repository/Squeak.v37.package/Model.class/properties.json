@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Kernel-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dependents" ],
+	"name" : "Model",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

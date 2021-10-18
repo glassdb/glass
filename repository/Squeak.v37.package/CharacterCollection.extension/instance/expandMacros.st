@@ -1,0 +1,3 @@
+*squeak
+expandMacros
+  ^ self expandMacrosWithArguments: #()

@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testFloatFromStreamAsNumber" : "dtl 11/24/2004 14:29",
+		"testFloatFromStreamWithExponent" : "dkh 10/06/2015 21:56",
+		"testFloatFromStringAsNumber" : "dtl 11/24/2004 14:07",
+		"testFloatFromStringWithExponent" : "dkh 10/06/2015 21:57",
+		"testFloatReadWithRadix" : "damiencassou 5/30/2008 11:09",
+		"testIntegerFromString" : "dkh 10/06/2015 21:57",
+		"testIntegerReadFrom" : "dkh 10/06/2015 21:57",
+		"testIntegerReadWithRadix" : "VeronicaUquillas 6/11/2010 14:42",
+		"testNegativeZero" : "dkh 03/24/2011 15:06",
+		"testNumberReadExactlyError" : "AdrianLienhard 6/5/2010 16:32",
+		"testNumberReadOnlyDigit" : "dkh 10/06/2015 21:58",
+		"testScaledDecimalWithTrailingZeroes" : "nice 8/29/2008 22:04" } }

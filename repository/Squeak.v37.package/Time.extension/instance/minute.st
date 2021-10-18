@@ -1,0 +1,4 @@
+*squeak
+minute
+
+	^self minutes

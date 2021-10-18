@@ -1,0 +1,4 @@
+*squeak
+hour
+
+	^self hours

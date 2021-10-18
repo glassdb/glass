@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Kernel-Objects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ProtoObject",
+	"pools" : [
+		 ],
+	"super" : "nil",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"allByteCharacters" : "DaleHenrichs 10/25/2010 16:01",
+		"allCharacters" : "DaleHenrichs 10/25/2010 16:01",
+		"alphabet" : "rjl 04/28/2009 12:46",
+		"digitValue:" : "dkh 02/12/2009 12:09",
+		"escape" : "",
+		"readFrom:" : "dkh 10/02/2008 15:57",
+		"separators" : "" },
+	"instance" : {
+		"asUnicode" : "dkh 11/14/2008 15:07",
+		"digitValue" : "DaleHenrichs 10/25/2010 16:01",
+		"digitValueInRadix:" : "DaleHenrichs 10/25/2010 16:01",
+		"isSafeForHTTP" : "dkh 07/15/2009 14:19",
+		"isSqueakSeparator" : "DataCurator 03/31/2011 10:56",
+		"isVowel" : "DaleHenrichs 12/08/2010 16:13",
+		"leadingChar" : "dkh 11/14/2008 15:07",
+		"sameAs:" : "08/31/2013 15:49:09",
+		"to:" : "dkh 02/28/2008 16:04" } }

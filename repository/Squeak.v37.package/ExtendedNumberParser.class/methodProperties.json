@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allowPlusSign" : "nice 2/13/2010 00:40",
+		"exponentLetters" : "dkh 10/06/2015 19:47",
+		"nextNumber" : "dkh 03/25/2011 11:46",
+		"readNumberWithFractionPartNumberOfTrailingZeroInIntegerPart:" : "dkh 3/24/2011 14:07",
+		"readNumberWithoutIntegerPart" : "nice 2/13/2010 01:55",
+		"readNumberWithoutIntegerPartOrNil" : "nice 2/13/2010 01:54" } }

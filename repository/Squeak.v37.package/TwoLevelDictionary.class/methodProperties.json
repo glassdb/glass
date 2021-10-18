@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"new" : "DataCurator 12/19/2007 11:57" },
+	"instance" : {
+		"at:" : "DataCurator 12/19/2007 11:57",
+		"at:put:" : "DataCurator 12/19/2007 11:57",
+		"initialize" : "DataCurator 12/19/2007 11:57",
+		"keysDo:" : "DataCurator 12/19/2007 11:57",
+		"twoLevelKeys" : "DataCurator 12/19/2007 11:57" } }

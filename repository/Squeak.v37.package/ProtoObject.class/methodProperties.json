@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"_errorExpectedClass:" : "dkh 10/21/2008 15:11",
+		"_getIndexReferencesInto:" : "DataCurator 12/13/2010 19:35",
+		"_removeIndexParticipation:for:" : "dkh 10/21/2008 16:43",
+		"_resetParentRef" : "dkh 10/21/2008 14:53",
+		"_restoreIndexParticipation:" : "dkh 10/21/2008 16:43",
+		"_validateClass:" : "dkh 10/21/2008 15:11",
+		"asString" : "DataCurator 10/05/2011 17:14",
+		"become:" : "dkh 10/21/2008 16:36",
+		"class" : "DataCurator 10/05/2011 17:14",
+		"doesNotUnderstand:" : "dkh 12/09/2016 12:58",
+		"error:" : "dkh 10/21/2008 16:41",
+		"ifNil:ifNotNilDo:" : "dkh 11/01/2007 15:16",
+		"ifNotNilDo:" : "dkh 11/01/2007 15:17",
+		"ifNotNilDo:ifNil:" : "dkh 11/01/2007 15:17",
+		"isBehavior" : "dkh 11/01/2007 15:13",
+		"isNil" : "dkh 11/01/2007 15:14",
+		"tagSize" : "DataCurator 10/05/2011 17:14" } }

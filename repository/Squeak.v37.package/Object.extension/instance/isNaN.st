@@ -1,0 +1,4 @@
+*squeak-testing
+isNaN
+
+	^false

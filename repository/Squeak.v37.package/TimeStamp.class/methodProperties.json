@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"current" : "fbs 4/20/2004 14:21",
+		"midnightOn:" : "md 7/16/2004 16:46",
+		"now" : "fbs 4/20/2004 14:22" },
+	"instance" : {
+		"asMonth" : "dkh 09/23/2008 16:20",
+		"asStringUsingFormat:" : "dkh 11/25/2014 10:05",
+		"asTimeStamp" : "brp 7/27/2003 17:13",
+		"date" : "brp 7/27/2003 17:14",
+		"date:" : "brp 8/5/2003 18:19",
+		"dateAndTime" : "brp 7/27/2003 17:17",
+		"minusDays:" : "brp 7/27/2003 17:19",
+		"minusSeconds:" : "brp 7/27/2003 17:19",
+		"plusDays:" : "brp 7/27/2003 17:18",
+		"plusSeconds:" : "brp 7/27/2003 17:19",
+		"printOn:" : "brp 7/27/2003 17:17",
+		"storeOn:" : "brp 7/27/2003 17:17",
+		"time" : "brp 7/27/2003 17:15",
+		"time:" : "brp 8/5/2003 18:19" } }

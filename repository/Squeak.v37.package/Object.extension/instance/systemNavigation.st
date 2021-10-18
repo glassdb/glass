@@ -1,0 +1,4 @@
+*squeak
+systemNavigation
+
+	^SystemNavigation default

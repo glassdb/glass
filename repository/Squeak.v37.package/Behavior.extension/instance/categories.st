@@ -1,0 +1,4 @@
+*squeak
+categories
+
+	^self categoryNames

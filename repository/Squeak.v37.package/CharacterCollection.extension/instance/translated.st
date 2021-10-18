@@ -1,0 +1,4 @@
+*squeak
+translated
+
+	^self

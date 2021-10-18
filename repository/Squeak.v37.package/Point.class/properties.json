@@ -1,0 +1,15 @@
+{
+	"category" : "Squeak-Graphics-Primitives",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"x",
+		"y" ],
+	"name" : "Point",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

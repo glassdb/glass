@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Kernel-ST80 Remnants",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"contents" ],
+	"name" : "ValueHolder",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

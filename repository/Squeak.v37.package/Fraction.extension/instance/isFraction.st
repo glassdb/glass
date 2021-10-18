@@ -1,0 +1,3 @@
+*squeak-converting
+isFraction
+	^ true

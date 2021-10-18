@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"contentStream" ],
+	"name" : "MIMELocalFileDocument",
+	"pools" : [
+		 ],
+	"super" : "MIMEDocument",
+	"type" : "normal" }

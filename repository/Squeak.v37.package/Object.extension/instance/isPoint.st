@@ -1,0 +1,4 @@
+*squeak-testing
+isPoint
+
+	^false

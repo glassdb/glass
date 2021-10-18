@@ -1,0 +1,15 @@
+{
+	"category" : "Squeak-Collections-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"emphasisCode",
+		"setMode" ],
+	"name" : "TextEmphasis",
+	"pools" : [
+		 ],
+	"super" : "TextAttribute",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+*squeak
+copy
+
+	^self asArray

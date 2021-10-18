@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"at:" : "dkh 11/21/2008 15:44",
+		"at:ifAbsent:" : "brp 10/2/2004 14:53",
+		"at:put:" : "Koubo 3/17/2002 11:55",
+		"booleanAt:" : "Koubo 3/17/2002 11:55",
+		"booleansAt:" : "bolot 6/22/2001 12:34",
+		"collect:" : "dkh 11/26/2007 16:49",
+		"numberAt:" : "Koubo 3/17/2002 11:55",
+		"numbersAt:" : "bolot 6/22/2001 12:34",
+		"printElementsOn:" : "Koubo 3/17/2002 11:55",
+		"rawAt:" : "dkh 08/10/2009 12:23",
+		"rawAt:ifAbsent:" : "bolot 5/2/2002 17:46",
+		"stringAt:" : "Koubo 3/17/2002 11:55",
+		"stringsAt:" : "bolot 6/22/2001 12:35" } }

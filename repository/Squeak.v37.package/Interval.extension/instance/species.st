@@ -1,0 +1,4 @@
+*squeak
+species
+
+	^Array

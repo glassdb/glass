@@ -1,0 +1,4 @@
+*squeak
+byteSize
+
+	^self size

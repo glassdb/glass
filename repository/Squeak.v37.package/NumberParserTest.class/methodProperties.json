@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "dkh 10/06/2015 19:32",
+		"tearDown" : "dkh 10/06/2015 19:33",
+		"testDefaultParserClassIsSqNumberParser" : "dkh 10/06/2015 20:40",
+		"testDefaultParserClassIsUsed" : "IwanVosloo 09/15/2015 01:18",
+		"testIssue20" : "dkh 10/06/2015 21:30" } }

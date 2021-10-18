@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Kernel-Chronology",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TimeStamp",
+	"pools" : [
+		 ],
+	"super" : "DateAndTime",
+	"type" : "normal" }

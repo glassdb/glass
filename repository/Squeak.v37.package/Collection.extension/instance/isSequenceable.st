@@ -1,0 +1,3 @@
+*squeak-testing
+isSequenceable
+	^ false

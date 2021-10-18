@@ -1,0 +1,28 @@
+{
+	"category" : "Squeak-System-FilePackage",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"realSrc",
+		"realDst",
+		"srcMap",
+		"dstMap",
+		"srcLines",
+		"dstLines",
+		"srcPos",
+		"dstPos",
+		"added",
+		"removed",
+		"shifted",
+		"runs",
+		"matches",
+		"multipleMatches",
+		"patchSequence" ],
+	"name" : "TextDiffBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

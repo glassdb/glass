@@ -1,0 +1,25 @@
+{
+	"category" : "Squeak-Kernel-Chronology",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DayNames",
+		"DaysInMonth",
+		"MonthNames",
+		"NanosInMillisecond",
+		"NanosInSecond",
+		"SecondsInDay",
+		"SecondsInHour",
+		"SecondsInMinute",
+		"SqueakEpoch" ],
+	"commentStamp" : "brp 3/12/2004 14:34",
+	"instvars" : [
+		"seconds",
+		"offset",
+		"jdn",
+		"nanos" ],
+	"name" : "ChronologyConstants",
+	"pools" : [
+		 ],
+	"super" : "SharedPool",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+testing
+hasMultipleMatches
+	^multipleMatches == true

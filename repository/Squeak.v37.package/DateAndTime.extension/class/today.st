@@ -1,0 +1,4 @@
+*squeak
+today
+
+	^ self midnight

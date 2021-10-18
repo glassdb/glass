@@ -1,0 +1,3 @@
+*squeak
+isSequenceable
+	^ true

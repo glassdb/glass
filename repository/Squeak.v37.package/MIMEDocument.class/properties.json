@@ -1,0 +1,17 @@
+{
+	"category" : "Squeak-Network-Url",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"MIMEdatabase" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mainType",
+		"subType",
+		"content",
+		"url" ],
+	"name" : "MIMEDocument",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

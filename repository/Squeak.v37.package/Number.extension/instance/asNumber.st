@@ -1,0 +1,4 @@
+*squeak-converting
+asNumber
+
+	^self

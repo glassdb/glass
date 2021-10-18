@@ -1,0 +1,3 @@
+*squeak-private
+fixTemps
+	"obsolete"

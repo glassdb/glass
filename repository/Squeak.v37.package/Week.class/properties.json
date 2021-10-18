@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Kernel-Chronology",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"StartDay" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Week",
+	"pools" : [
+		"ChronologyConstants" ],
+	"super" : "Timespan",
+	"type" : "normal" }

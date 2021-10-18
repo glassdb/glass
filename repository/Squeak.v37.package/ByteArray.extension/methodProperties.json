@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"hashBytes:startingWith:" : "dkh 11/13/2008 16:15" },
+	"instance" : {
+		"byteAt:put:" : "dkh 11/13/2008 15:38",
+		"byteSize" : "dkh 11/13/2008 15:28",
+		"longAt:bigEndian:" : "dkh 06/27/2008 15:17" } }

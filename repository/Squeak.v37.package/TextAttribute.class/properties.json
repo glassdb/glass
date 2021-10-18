@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Collections-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TextAttribute",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

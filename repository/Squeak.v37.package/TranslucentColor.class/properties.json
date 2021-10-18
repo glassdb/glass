@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Graphics-Primitives",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"alpha" ],
+	"name" : "TranslucentColor",
+	"pools" : [
+		 ],
+	"super" : "Color",
+	"type" : "normal" }

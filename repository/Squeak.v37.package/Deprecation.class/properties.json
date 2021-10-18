@@ -1,0 +1,17 @@
+{
+	"category" : "Squeak-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Log" ],
+	"commentStamp" : "dew 5/21/2003 17:46",
+	"instvars" : [
+		"methodReference",
+		"explanationString",
+		"deprecationDate",
+		"versionString" ],
+	"name" : "Deprecation",
+	"pools" : [
+		 ],
+	"super" : "Warning",
+	"type" : "normal" }

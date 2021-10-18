@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"template:" : "",
+		"templateForSubclassOf:category:" : "DataCurator 12/13/2010 19:35" },
+	"instance" : {
+		"allSubclassesDo:" : "",
+		"className" : "",
+		"classVariablesString" : "dkh 11/11/2008 23:11",
+		"definitionST80" : "dkh 11/11/2008 13:52",
+		"hasComment" : "dkh 08/03/2009 12:03",
+		"kindOfSubclass" : "DaleHenrichs 10/27/2010 11:22",
+		"sharedPoolsString" : "dkh 11/11/2008 23:19",
+		"subclassesDo:" : "dkh 10/23/2008 13:55",
+		"symbolDictionaryName" : "",
+		"withClassVersion:" : "" } }

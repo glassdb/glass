@@ -1,0 +1,15 @@
+{
+	"category" : "Squeak-Kernel-ST80 Remnants",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentCompiledMethod",
+		"contentsSymbol" ],
+	"name" : "CodeHolder",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

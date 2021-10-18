@@ -1,0 +1,4 @@
+*squeak
+date
+
+	^self asDate

@@ -1,0 +1,15 @@
+{
+	"category" : "Squeak-Collections-Streams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"FromCharTable",
+		"ToCharTable" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data" ],
+	"name" : "Base64MimeConverter",
+	"pools" : [
+		 ],
+	"super" : "MimeConverter",
+	"type" : "normal" }

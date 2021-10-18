@@ -1,0 +1,4 @@
+accessing
+classOrganizer
+
+	^ClassOrganizer cachedOrganizer

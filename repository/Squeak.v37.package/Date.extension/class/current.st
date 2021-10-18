@@ -1,0 +1,4 @@
+*squeak
+current
+
+	^self today

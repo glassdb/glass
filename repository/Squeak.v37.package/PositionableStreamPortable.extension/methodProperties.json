@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"on:from:to:" : "" },
+	"instance" : {
+		"close" : "",
+		"contentsOfEntireFile" : "",
+		"last" : "",
+		"nextDelimited:" : "",
+		"originalContents" : "",
+		"setToBeginning" : "",
+		"skipTo:" : "" } }

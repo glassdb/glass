@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"ifNil:ifNotNilDo:" : "",
+		"ifNotNilDo:" : "",
+		"ifNotNilDo:ifNil:" : "",
+		"isEmptyOrNil" : "",
+		"squeakStoreOn:" : "DataCurator 07/12/2011 16:33" } }

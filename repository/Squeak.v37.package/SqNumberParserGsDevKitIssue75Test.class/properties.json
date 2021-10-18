@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"defaultParserClass" ],
+	"name" : "SqNumberParserGsDevKitIssue75Test",
+	"pools" : [
+		 ],
+	"super" : "SqNumberParserTest",
+	"type" : "normal" }

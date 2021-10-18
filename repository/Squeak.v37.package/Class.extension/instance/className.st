@@ -1,0 +1,4 @@
+*squeak
+className
+
+	^self name

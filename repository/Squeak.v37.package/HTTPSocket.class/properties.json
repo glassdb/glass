@@ -1,0 +1,25 @@
+{
+	"category" : "Squeak-Gemstone",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CR",
+		"CrLf",
+		"HTTPBlabEmail",
+		"HTTPProxyCredentials",
+		"HTTPProxyExceptions",
+		"HTTPProxyPassword",
+		"HTTPProxyPort",
+		"HTTPProxyServer",
+		"HTTPProxyUser",
+		"LF" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"headerTokens",
+		"headers",
+		"responseCode" ],
+	"name" : "HTTPSocket",
+	"pools" : [
+		 ],
+	"super" : "SpSocket",
+	"type" : "normal" }

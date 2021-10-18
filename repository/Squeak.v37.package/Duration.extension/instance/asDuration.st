@@ -1,0 +1,4 @@
+*squeak
+asDuration
+
+	^self

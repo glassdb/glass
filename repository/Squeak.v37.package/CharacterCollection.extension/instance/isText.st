@@ -1,0 +1,4 @@
+*squeak
+isText
+
+	^false

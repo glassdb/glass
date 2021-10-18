@@ -1,0 +1,4 @@
+*squeak
+size
+
+	^itsCollection size

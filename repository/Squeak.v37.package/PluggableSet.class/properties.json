@@ -1,0 +1,15 @@
+{
+	"category" : "Squeak-Collections-Unordered",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hashBlock",
+		"equalBlock" ],
+	"name" : "PluggableSet",
+	"pools" : [
+		 ],
+	"super" : "Set",
+	"type" : "normal" }

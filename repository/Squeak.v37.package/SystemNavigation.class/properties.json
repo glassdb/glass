@@ -1,0 +1,15 @@
+{
+	"category" : "Squeak-System-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browserClass",
+		"hierarchyBrowserClass" ],
+	"name" : "SystemNavigation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

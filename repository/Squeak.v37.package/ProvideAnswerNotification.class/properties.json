@@ -1,0 +1,14 @@
+{
+	"category" : "Squeak-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ProvideAnswerNotification",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

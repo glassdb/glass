@@ -1,0 +1,4 @@
+*squeak
+contentsOfEntireFile
+
+	^ self contents

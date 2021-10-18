@@ -1,0 +1,4 @@
+*squeak-accessing
+valuesAndCounts
+
+	^dict

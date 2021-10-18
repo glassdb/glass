@@ -1,0 +1,4 @@
+*squeak
+isBlock
+
+	^false

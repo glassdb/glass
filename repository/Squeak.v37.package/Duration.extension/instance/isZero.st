@@ -1,0 +1,4 @@
+*squeak
+isZero
+
+	^seconds isZero

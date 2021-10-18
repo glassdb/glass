@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"areLowercaseDigitsAllowed" : "nice 3/14/2010 23:02",
+		"testFail" : "NikoSchwarz 10/23/2009 12:39",
+		"testFloatFromStreamAsNumber" : "nice 5/7/2006 17:46",
+		"testFloatFromStreamWithExponent" : "nice 5/7/2006 17:46",
+		"testFloatReadError" : "nice 5/1/2006 00:40",
+		"testFloatReadWithRadix" : "damiencassou 5/30/2008 11:09",
+		"testGsIntegerRadix" : "dkh 10/06/2015 21:58",
+		"testIntegerReadFrom" : "damiencassou 5/30/2008 11:09",
+		"testIntegerReadWithRadix" : "nice 5/7/2006 17:46",
+		"testScaledDecimalWithTrailingZeroes" : "nice 8/29/2008 22:03",
+		"testcheckForCoverage" : "dkh 10/06/2015 21:58" } }

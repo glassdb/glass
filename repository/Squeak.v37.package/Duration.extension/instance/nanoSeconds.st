@@ -1,0 +1,3 @@
+*squeak
+nanoSeconds
+^0

@@ -1,0 +1,4 @@
+*squeak
+escape
+
+	^self esc

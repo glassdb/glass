@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"ofSize:" : "dkh 11/20/2008 13:16" },
+	"instance" : {
+		"at:ifAbsentPut:" : "NickAger 07/28/2011 13:46",
+		"copyWith:" : "DaleHenrichs 10/25/2010 14:42",
+		"removeAll" : "DaleHenrichs 10/25/2010 16:01",
+		"removeLast:" : "DaleHenrichs 10/25/2010 16:01",
+		"reset" : "DaleHenrichs 10/25/2010 16:01" } }

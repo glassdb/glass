@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"newFrom:" : "dkh 12/05/2007 11:02" },
+	"instance" : {
+		"associations" : "DataCurator 04/23/2007 14:43",
+		"at:ifPresent:ifAbsent:" : "dkh 10/18/2019 13:51",
+		"hasBindingThatBeginsWith:" : "dkh 12/02/2007 16:01",
+		"isDictionary" : "DaleHenrichs 01/28/2010 16:19",
+		"keysAndValuesRemove:" : "dkh 07/23/2007 11:32",
+		"keysSortedSafely" : "DataCurator 04/23/2007 14:43",
+		"removeAll" : "DaleHenrichs 10/25/2010 16:01" } }
