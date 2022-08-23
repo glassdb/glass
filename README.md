@@ -21,4 +21,5 @@ GsDeployer deploy: [
   repository: 'github://glassdb/glass:master/repository';
   onLock: [:ex | ex honor ];
   load: 'default' ].
+
 ```
