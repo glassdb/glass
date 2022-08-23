@@ -4,4 +4,5 @@
 	"instance" : {
 		"byteAt:put:" : "dkh 11/13/2008 15:38",
 		"byteSize" : "dkh 11/13/2008 15:28",
-		"longAt:bigEndian:" : "dkh 06/27/2008 15:17" } }
+		"longAt:bigEndian:" : "dkh 06/27/2008 15:17",
+		"readStream" : "DataCurator 10/18/2021 14:47:30" } }

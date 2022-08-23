@@ -17,4 +17,3 @@ nextDelimited: terminator
     out nextPut: ch.
   ].
   ^ out collection
-

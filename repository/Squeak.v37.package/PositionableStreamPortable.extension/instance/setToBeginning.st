@@ -1,4 +1,4 @@
 *squeak
 setToBeginning
 
-	self position: 0 
+	self position: 0
