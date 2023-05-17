@@ -1,4 +1,4 @@
-initialize
+testing
 atEnd
   "Note: It is possible that we have a few bits left,
 	representing just the EOB marker. To check for
@@ -7,7 +7,7 @@ atEnd
 
   position < readLimit
     ifTrue: [ ^ false ].	"Primitive test"
-  (position > readLimit and: [ state = StateNoMoreData ])
+  (position >= readLimit and: [ state = StateNoMoreData ])
     ifTrue: [ ^ true ].	"Force decompression, by calling #next. Since #moveContentsToFront
 	will never move data to the beginning of the buffer it is safe to
 	skip back the read position afterwards"

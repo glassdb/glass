@@ -3,7 +3,7 @@
 		"initialize" : "dkh 05/23/2014 15:22" },
 	"instance" : {
 		"_initStreamWith:" : "dkh 05/23/2014 15:37",
-		"atEnd" : "dkh 03/08/2023 11:05",
+		"atEnd" : "dkh 05/24/2014 07:59",
 		"bitPosition" : "dkh 05/23/2014 15:28",
 		"computeHuffmanValues:counts:from:to:" : "dkh 05/23/2014 15:29",
 		"contents" : "dkh 05/24/2014 07:02",
