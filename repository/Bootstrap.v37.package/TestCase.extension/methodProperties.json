@@ -7,7 +7,6 @@
 		"executeShould:inScopeOf:" : "DataCurator 12/13/2010 19:35",
 		"executeShould:inScopeOf:withExceptionDo:" : "dkh 12/01/2009 11:29",
 		"expectedFailures" : "dkh 11/09/2009 15:01",
-		"fail" : "TravisCI 02/04/2016 18:32",
 		"fail:" : "TravisCI 02/04/2016 18:32",
 		"should:raise:" : "dkh 05/28/2008 15:52",
 		"should:raise:withExceptionDo:" : "dkh 12/01/2009 11:29",
