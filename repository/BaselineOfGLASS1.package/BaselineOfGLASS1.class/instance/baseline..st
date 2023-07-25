@@ -261,7 +261,7 @@ baseline: spec
 								yourself ] ].
 	spec
 		for:
-			#(#'gs3.2.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' #'gs3.6.x' #'gs3.7.x' #'gs3.8.x' #'gs3.9.x')
+			#(#'gs3.2.x' #'gs3.3.x' #'gs3.4.x' #'gs3.5.x' #'gs3.6.x')
 		do: [ 
 			spec
 				package: 'Squeak' with: [ spec file: 'Squeak.v32' ];
@@ -349,6 +349,11 @@ baseline: spec
 							spec
 								requires: 'Network-Url';
 								file: 'Squeak.v37' ];
+				package: 'Utf8Encoding'
+					with: [ 
+							spec
+								file: 'Utf8Encoding.370';
+								requires: #('GsCore') ];
 				yourself ].
 	spec
 		for: #'maglev'

@@ -1,0 +1,14 @@
+{
+	"category" : "Utf8Encoding",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "InvalidUtf8Error",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

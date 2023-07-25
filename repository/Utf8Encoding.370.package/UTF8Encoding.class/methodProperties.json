@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"decode:" : "DataCurator 07/23/2008 17:04",
+		"encode:" : "DataCurator 07/23/2008 17:04",
+		"newEncoder" : "DataCurator 07/23/2008 17:04" },
+	"instance" : {
+		"badlyFormedUTF8Stream" : "DataCurator 07/23/2008 17:04",
+		"copyright" : "DataCurator 07/23/2008 17:04",
+		"decode:" : "DataCurator 07/23/2008 17:04",
+		"displayEncodingOf:" : "DataCurator 07/23/2008 17:04",
+		"encode:" : "DataCurator 07/23/2008 17:04",
+		"encode:onto:" : "DataCurator 07/23/2008 17:04",
+		"encodingOf:" : "DataCurator 07/23/2008 17:04",
+		"isLegalUtf8Cp:" : "dkh 04/14/2014 20:43",
+		"nextByteFrom:" : "DataCurator 07/23/2008 17:04",
+		"nextBytesFrom:do:" : "DataCurator 07/23/2008 17:04",
+		"nextFrom:" : "DataCurator 07/23/2008 17:04",
+		"nextPut:on:" : "DataCurator 07/23/2008 17:04",
+		"nextPutCodePoint:on:" : "DataCurator 07/23/2008 17:04",
+		"sizeOf:" : "DataCurator 07/23/2008 17:04",
+		"trailingBytesForUTF8:" : "DaleHenrichs 07/22/2010 13:50" } }
