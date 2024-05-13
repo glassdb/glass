@@ -20,7 +20,7 @@ jobs:
         include:
           - os: macos-13
             smalltalk: GemStone-3.6.8 
-            - os: macos-12
+          - os: macos-12
             smalltalk: GemStone-3.5.8
     runs-on: ${{ matrix.os }}
     name: ${{ matrix.os }}-${{ matrix.smalltalk }}
