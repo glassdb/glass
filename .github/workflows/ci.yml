@@ -22,6 +22,9 @@ jobs:
             smalltalk: GemStone-3.6.8 
           - os: macos-12
             smalltalk: GemStone-3.5.8
+        exclude:
+          - os: macos-latest
+          - smalltalk: GemStone-3.5.8
     runs-on: ${{ matrix.os }}
     name: ${{ matrix.os }}-${{ matrix.smalltalk }}
     steps:
