@@ -16,10 +16,12 @@ jobs:
       fail-fast: false
       matrix:
         os: [ ubuntu-20.04, macos-latest ]
-        smalltalk: [ GemStone-3.7.0, GemStone64-3.6.6, GemStone64-3.5.8 ]
-        exclude:
-          - os: macos-latest
-            smalltalk: GemStone-3.7.0
+        smalltalk: [ GemStone-3.7.1, GemStone64-3.6.8, GemStone64-3.5.8 ]
+        include:
+          - os: macos-13
+            smalltalk: GemStone-3.6.8 
+            - os: macos-12
+            smalltalk: GemStone-3.5.8
     runs-on: ${{ matrix.os }}
     name: ${{ matrix.os }}-${{ matrix.smalltalk }}
     steps:
