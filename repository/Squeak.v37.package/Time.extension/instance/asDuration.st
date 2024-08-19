@@ -1,4 +1,4 @@
 *squeak
 asDuration
 
-	^milliseconds asDuration
+	^ self asMilliseconds asDuration
