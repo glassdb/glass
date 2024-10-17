@@ -6,7 +6,10 @@ makeIntegerOrScaledInteger
 	neg
 		ifTrue: [integerPart := integerPart negated].
 	self readExponent
-		ifTrue: [^integerPart * (base raisedToInteger: exponent)].
+		ifTrue:
+      [^exponent negative "GemStone now returns a fraction instead of a float. We want a float for negative exponents."
+        ifTrue: [integerPart * (base asFloat raisedToInteger: exponent)]
+        ifFalse: [integerPart * (base raisedToInteger: exponent)]].
 	self readScale
 		ifTrue: [^integerPart asScaledDecimal: scale].
 	^ integerPart
