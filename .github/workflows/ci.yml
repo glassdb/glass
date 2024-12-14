@@ -18,8 +18,6 @@ jobs:
         include:
           - os: macos-13
             smalltalk: GemStone-3.6.8 
-          - os: macos-12
-            smalltalk: GemStone-3.5.8
         exclude:
           - os: macos-latest
           - smalltalk: GemStone-3.5.8
