@@ -26,7 +26,7 @@ baseline: spec
 				baseline: 'Metacello'
 					with: [ spec repository: 'github://dalehenrich/metacello-work:master/repository' ];
 				baseline: 'Sport'
-					with: [ spec repository: 'github://GsDevKit:master/Sport/src' ];
+					with: [ spec repository: 'github://GsDevKit/Sport:master/src' ];
 				configuration: 'XMLSupport'
 					with: [ 
 							spec
