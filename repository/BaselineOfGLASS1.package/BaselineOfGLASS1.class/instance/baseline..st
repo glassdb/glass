@@ -52,7 +52,6 @@ baseline: spec
 				package: 'GemStone-Indexing-Extensions'
 					with: [ spec requires: #('Bootstrap') ];
 				package: 'GemStone-Release-Support' with: [ spec requires: #('GsCore') ];
-				package: 'Sport' with: [ spec requires: #('Bootstrap') ];
 				package: 'Squeak' with: [ spec requires: #('Sport') ];
 				package: 'Regex-Core' with: [ spec requires: #('Core' 'Squeak') ];
 				package: 'Regex-Tests-Core' with: [ spec requires: #('Regex-Core') ];
