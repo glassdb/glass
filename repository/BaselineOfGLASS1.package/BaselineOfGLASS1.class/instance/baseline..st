@@ -25,6 +25,8 @@ baseline: spec
 				project: 'Grease-Tests' copyFrom: 'Grease' with: [ spec loads: #('Tests') ];
 				baseline: 'Metacello'
 					with: [ spec repository: 'github://dalehenrich/metacello-work:master/repository' ];
+				baseline: 'Sport'
+					with: [ spec repository: 'github://GsDevKit/Sport:master/src' ];
 				configuration: 'XMLSupport'
 					with: [ 
 							spec
@@ -50,12 +52,6 @@ baseline: spec
 				package: 'GemStone-Indexing-Extensions'
 					with: [ spec requires: #('Bootstrap') ];
 				package: 'GemStone-Release-Support' with: [ spec requires: #('GsCore') ];
-				package: 'Sport'
-					with: [ 
-							spec
-								file: 'Sport3.010-dkh.38';
-								requires: #('Bootstrap');
-								repository: 'http://seaside.gemtalksystems.com/ss/hyper' ];
 				package: 'Squeak' with: [ spec requires: #('Sport') ];
 				package: 'Regex-Core' with: [ spec requires: #('Core' 'Squeak') ];
 				package: 'Regex-Tests-Core' with: [ spec requires: #('Regex-Core') ];
@@ -196,7 +192,6 @@ baseline: spec
 				package: 'OB-Standard' with: [ spec file: 'OB-Standard.v3' ];
 				package: 'OB-SymbolListBrowser' with: [ spec requires: #('OB-Standard') ];
 				package: 'OB-Tools' with: [ spec file: 'OB-Tools.v3' ];
-				package: 'Sport' with: [ spec file: 'Sport3.010.v3-jupiter.33' ];
 				package: 'Squeak' with: [ spec file: 'Squeak.v3' ];
 				yourself.
 			spec
