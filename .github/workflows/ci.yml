@@ -13,14 +13,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ ubuntu-20.04, macos-latest ]
-        smalltalk: [ GemStone-3.7.1, GemStone64-3.6.8, GemStone64-3.5.8 ]
-        include:
-          - os: macos-13
-            smalltalk: GemStone-3.6.8 
-        exclude:
-          - os: macos-latest
-          - smalltalk: GemStone-3.5.8
+        os: [ ubuntu-latest, ubuntu-22.04 ]
+        smalltalk: [ GemStone64-3.7.4.3, GemStone64-3.7.2, GemStone64-3.7.1, GemStone64-3.7.0 ]
     runs-on: ${{ matrix.os }}
     name: ${{ matrix.os }}-${{ matrix.smalltalk }}
     steps:
@@ -37,7 +31,7 @@ jobs:
     name: Post Workflow Status To Slack
     needs:
       - build
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
        - name: Slack Workflow Notification
          uses: Gamesight/slack-workflow-status@master
