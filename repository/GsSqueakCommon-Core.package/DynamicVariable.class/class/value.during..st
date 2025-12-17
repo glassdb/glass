@@ -5,7 +5,7 @@ value: anObject during: aBlock
 	
 	p := Processor activeProcess.
 	oldValue := p environmentAt: self ifAbsent: [self default].
-	[
+	^[
 		p environmentAt: self put: anObject.
 		aBlock value.
 	] ensure: [ 
