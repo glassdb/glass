@@ -27,15 +27,8 @@ baseline: spec
 					with: [ spec repository: 'github://dalehenrich/metacello-work:master/repository' ];
 				baseline: 'Sport'
 					with: [ spec repository: 'github://GsDevKit/Sport:master/src' ];
-				configuration: 'XMLSupport'
-					with: [ 
-							spec
-								versionString: #'stable';
-								loads: #('Core');
-								repository: 'http://www.squeaksource.com/XMLSupport' ];
-				project: 'XMLSupport-Tests'
-					copyFrom: 'XMLSupport'
-					with: [ spec loads: #('Tests') ];
+				 baseline: 'XMLParser' 
+				 	with: [ spec repository:'github://GsDevKit/XML-XMLParser:gemstone/filetree'];
 				yourself.
 			spec
 				package: 'GemStone-Interactions';
@@ -126,7 +119,7 @@ baseline: spec
 					with:
 						#('OmniBrowser' 'OB-GemStone-Platform' 'OB-Monticello' 'OB-SUnitIntegration' 'OB-SUnitGUI' 'OB-Standard' 'OB-Tools' 'JadeServer');
 				group: 'GsSqueakCommon' with: #('GsSqueakCommon-Core');
-				group: 'XML-Parser' with: #('XMLSupport');
+				group: 'XML-Parser' with: #('XMLParser');
 				group: 'CI' with: #('GLASS' 'GsMisc' 'Gofer-Tests' 'Grease-Tests');
 				yourself ].
 	spec
